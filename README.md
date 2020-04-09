@@ -3,6 +3,7 @@ Angular Restaurant Application with CRUD functions
 
 ## Table of contents
 * [General info](#general-info)
+* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
@@ -12,6 +13,10 @@ Angular Restaurant Application with CRUD functions
 
 ## General info
 Simple Restaurant Application with CRUD functions with Angular Material
+
+## Screenshots
+![Example screenshot]('./screenshots/page_01-order.png')
+![Example screenshot]('./screenshots/page_02-Item-popup.png')
 
 ## Technologies
 * angular - version 9.0.6

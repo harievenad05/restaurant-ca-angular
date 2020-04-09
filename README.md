@@ -1,4 +1,24 @@
-# RestaurantCAANG
+# RestaurantCA-ANG
+Angular Restaurant Application with CRUD functions
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
+
+## General info
+Simple Restaurant Application with CRUD functions with Angular Material
+
+## Technologies
+* angular - version 9.0.6
+* material - version x.xx.xx
+
+## Setup
+download or clone the repo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 
@@ -25,3 +45,21 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Features
+List of features ready and TODOs for future development
+* Create, read, update, delete Orders & items
+
+To-do list:
+* login and register
+* JWT token method implementation
+* Password encryption methods
+
+## Status
+Project is: _in progress_
+
+## Inspiration
+[@CodAffection](https://github.com/CodAffection)
+
+## Contact
+Created by [@harievenad05](https://github.com/harievenad05) - feel free to contact me!

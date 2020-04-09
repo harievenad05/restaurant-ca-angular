@@ -15,7 +15,7 @@ Simple Restaurant Application with CRUD functions with Angular Material
 
 ## Technologies
 * angular - version 9.0.6
-* material - version x.xx.xx
+* angular/material - version 9.2.0
 
 ## Setup
 download or clone the repo
@@ -51,9 +51,8 @@ List of features ready and TODOs for future development
 * Create, read, update, delete Orders & items
 
 To-do list:
-* login and register
-* JWT token method implementation
-* Password encryption methods
+* Accounts and reports
+* Tax
 
 ## Status
 Project is: _in progress_

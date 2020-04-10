@@ -35,15 +35,18 @@ export class OrderItemsComponent implements OnInit {
   }
 
   resetForm(){
-    this.formData = {
-      order_item_id: null,
-      order_id: this.data.orderId,
-      item_id: 0,
-      item_name:'',
-      quantity: 0,
-      item_price: 0,
-      total: 0
-    }
+     if(this.data.orderItemIndex == null)
+      this.formData = {
+        order_item_id: null,
+        order_id: this.data.orderId,
+        item_id: 0,
+        item_name:'',
+        quantity: 0,
+        item_price: 0,
+        total: 0
+      }
+   else
+      this.formData = Object.assign({}, this.orderService.orderItems[this.data.orderItemIndex]);
   }
 
   updatePriceAction(event){
@@ -63,8 +66,13 @@ export class OrderItemsComponent implements OnInit {
 
   onSubmitAction(form: NgForm){
     if(this.validateForm(form.value)){
-      this.orderService.orderItems.push(form.value);
-      this.dialogRef.close();
+      if(this.data.orderItemIndex == null){
+        this.orderService.orderItems.push(form.value);
+        this.dialogRef.close();
+      } else {
+        this.orderService.orderItems[this.data.orderItemIndex] = form.value
+      }
+
     }
   }
 
